@@ -1,0 +1,7 @@
+<BD001_Director_Mk_I.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/director/lods/BD001_Director_Mk_I_lod1	</parent>
+	<extent>	2.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/director/BD001_Director_Mk_I	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</BD001_Director_Mk_I.model>

@@ -1,0 +1,8 @@
+<BGT095_21in_5tube_Torpedo_Tube_dead_lod1.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/lods/BGT095_21in_5tube_Torpedo_Tube_dead_lod2	</parent>
+	<nodefullVisual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/lods/BGT095_21in_5tube_Torpedo_Tube_dead_lod1	</nodefullVisual>
+	<extent>	15.0000	</extent>
+	<castsShadow>	true	</castsShadow>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</BGT095_21in_5tube_Torpedo_Tube_dead_lod1.model>

@@ -1,0 +1,8 @@
+<BF064_Rangefinder_MS20_2_7_m.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/finder/lods/BF064_Rangefinder_MS20_2_7_m_lod1	</parent>
+	<nodefullVisual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/finder/BF064_Rangefinder_MS20_2_7_m	</nodefullVisual>
+	<extent>	3.0000	</extent>
+	<castsShadow>	false	</castsShadow>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</BF064_Rangefinder_MS20_2_7_m.model>

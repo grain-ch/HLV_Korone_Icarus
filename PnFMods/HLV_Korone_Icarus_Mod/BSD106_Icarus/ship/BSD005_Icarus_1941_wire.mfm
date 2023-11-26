@@ -1,0 +1,13 @@
+<BSD005_Icarus_1941_wire.mfm>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941_n.dds	</Texture>
+	</property>
+</BSD005_Icarus_1941_wire.mfm>

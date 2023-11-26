@@ -1,0 +1,13 @@
+<C006_Grid_3_alpha.mfm>
+	<fx>	shaders/std_effects/grid_alpha.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/C006_Grid_3_alpha_a.dds	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	120	</Int>
+	</property>
+</C006_Grid_3_alpha.mfm>
