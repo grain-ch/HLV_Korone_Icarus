@@ -7,6 +7,9 @@ Copy "PnFMods" and "PnFModsLoader.py" into /bin/{the largest numbered folder}/re
 ==============================
 Change log
 
+2024/01/04
+Adjustment of main gun color.
+
 2022/05/19
 removed image.jpg
 
