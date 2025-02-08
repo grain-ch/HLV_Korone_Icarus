@@ -1,14 +1,7 @@
 <BGB122_Icarus_Depth_Charge_fake.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	mesh	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,68 +9,89 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_Track_1	</identifier>
+				<identifier>	mesh	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0158 -0.0008 1.0000	</row3>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_Track_2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0117 0.0117 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire1	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0189 -0.0520 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0206 -0.0803 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire3	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0224 -0.1087 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	HP_Track_1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0158 -0.0008 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_Track_2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0117 0.0117 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0189 -0.0520 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0206 -0.0803 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0224 -0.1086 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	mesh	</node>
-		<geometry>
-			<vertices>	meshShape.vertices	</vertices>
-			<primitive>	meshShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Gun	</identifier>
-					<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/default.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.0667 -0.0550 -0.1754	</min>
+		<min>	-0.0667 -0.0550 -0.1753	</min>
 		<max>	0.0667 0.0891 0.0784	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	meshShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	mesh	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/default.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	200.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	meshShape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </BGB122_Icarus_Depth_Charge_fake.visual>

@@ -7,7 +7,4 @@
 	<property>	metallicGlossMap
 		<Texture>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941_mg.dds	</Texture>
 	</property>
-	<property>	normalMap
-		<Texture>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941_n.dds	</Texture>
-	</property>
 </BSD005_Icarus_1941_wire.mfm>

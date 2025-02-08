@@ -1,7 +1,6 @@
 <BSD005_Icarus_1941.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/lods/BSD005_Icarus_1941_Full_lod4	</parent>
-	<extent>	200.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/ship/BSD005_Icarus_1941.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </BSD005_Icarus_1941.model>

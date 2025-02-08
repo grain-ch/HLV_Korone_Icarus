@@ -1,38 +1,106 @@
 <BGT095_21in_5tube_Torpedo_Tube_dead.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	BGT095_dead	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
+			<node>
+				<identifier>	BGT095_dead	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	BGT095_dead	</node>
-		<geometry>
-			<vertices>	BGT095_deadShape.vertices	</vertices>
-			<primitive>	BGT095_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_GunDead	</identifier>
-					<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGT095_21in_5tube_Torpedo_Tube_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
-		<min>	-0.156114 0.000000 -0.236043	</min>
-		<max>	0.156114 0.116882 0.266800	</max>
+		<min>	-0.1560 0.0000 -0.2359	</min>
+		<max>	0.1560 0.1168 0.2667	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	BGT095_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT095_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGT095_21in_5tube_Torpedo_Tube_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT095_dead_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT095_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGT095_21in_5tube_Torpedo_Tube_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT095_dead_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT095_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGT095_21in_5tube_Torpedo_Tube_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	BGT095_dead_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	BGT095_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGT095_21in_5tube_Torpedo_Tube_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	6.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT095_deadShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT095_dead_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT095_dead_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	200.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	BGT095_dead_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </BGT095_21in_5tube_Torpedo_Tube_dead.visual>

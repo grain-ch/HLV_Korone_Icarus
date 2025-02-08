@@ -1,7 +1,6 @@
 <BGM075_120mm_45_QF_MkIX_dead.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/lods/BGM075_120mm_45_QF_MkIX_dead_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGM075_120mm_45_QF_MkIX_dead	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Korone_Icarus_Mod/BSD106_Icarus/gun/BGM075_120mm_45_QF_MkIX_dead.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </BGM075_120mm_45_QF_MkIX_dead.model>
